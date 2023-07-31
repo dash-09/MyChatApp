@@ -1,3 +1,30 @@
+# React-Chat-app
+- This is the repo where I will create a Chat-Room app based on ReactJs . I will give this repo about an hour on daily basis
+ 
+## About
+- Complete chatRoom for Multiple users
+- Send and Receive text in groups
+- Create room for Your groups
+- Send Images
+- Notification sounds
+
+## Tech-Used
+- ReactJS and Css
+- ChatEngine (Chat-tool API)
+- Hooks & Sockets
+## Goal 
+The goal of this project to learn about props, hooks, web-sockets, chat-engine Api and Api integrations. And after the completion of this project, I have read react Props, hooks and state again . 
+## Images
+.....coming soon
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
