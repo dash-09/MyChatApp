@@ -1,5 +1,5 @@
 # React-Chat-app
-- This is the repo where I will create a Chat-Room app based on ReactJs . I will give this repo about an hour on daily basis
+- This is the repo where I will create a Chat-Room app based on ReactJs, Chat-engine library and css  . 
  
 ## About
 - Complete chatRoom for Multiple users
