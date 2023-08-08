@@ -82,7 +82,7 @@ const Modal = () => {
           <li> username and pass will be given by me </li>
           <li>
             if you are from some company,going throughout my projects and want
-            to check this project use username:("temp") password: ("temp").
+           <br/> to check this project use username:("temp") password: ("temp").
           </li>
           <li>sorry for Non responsiveness .Work is going on .</li>
           <li>The reason to everything is that Freely Hosted .</li>
