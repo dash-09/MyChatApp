@@ -3,15 +3,17 @@
 * {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.5px;
+  text-transform: capitalize;
 }
 
 .ce-chat-list {
-  background-color: rgb(172, 125, 188) !important;
+  background-color: #6650a5 !important;
 }
 
-.ce-chats-container {
-  
-   background-color: rgb(172, 125, 188) !important;
+.ce-chats-container {  
+   background-color: #6650a5 !important;
+   font-weight: 700;
+   text-transform: capitalize;
 }
 
 .ce-active-chat-card {
@@ -22,12 +24,13 @@
 }
 
 .ce-chat-subtitle-text {
-  color: #595959 !important;
+  color: #bebaba !important;
+  font-weight: 750;
 }
 
 .ce-chat-form-container {
   padding-bottom: 20px !important;
-  background-color: rgb(172, 125, 188) !important;
+  background-color: #6650a5 !important;
 }
 
 .ce-text-input {
@@ -51,7 +54,8 @@
 }
 
 .ce-settings {
-  background-color: rgb(172, 125, 188) !important;
+  background-color: #6650a5 !important;
+  
 }
 
 .ce-autocomplete-input {
@@ -66,7 +70,7 @@
 }
 
 .ce-chat-settings-container {
-  padding-top: 12px !important;
+  padding-top: 18px !important;
 }
 
 .ce-chat-avatars-row {
@@ -79,7 +83,7 @@
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgb(172, 125, 188);
+  background-color: #6650a5;
 }
 
 .chat-title-container {
@@ -128,7 +132,7 @@
 .message {
   padding: 12px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   border-radius: 6px;
   max-width: 60%;
 }
@@ -165,7 +169,7 @@
   bottom: 0px;
   width: calc(100% - 36px);
   padding: 18px;
-  background-color: rgb(172, 125, 188);
+  background-color: #6650a5;
 }
 
 .message-form {
@@ -182,6 +186,8 @@
   border: none;
   padding: 0px 18px;
   font-size: 15px;
+    font-weight: 700;
+
 }
 
 .image-button {
@@ -226,13 +232,12 @@
 
   /* bacground by me */
 
-    background: linear-gradient(311deg, #512e97, #cc351b);
-    background-size: 400% 400%;
+  background: linear-gradient(152deg, #246655, #7b17b6, #1ca6c5, #b63417);
+  background-size: 800% 800%;
 
-    -webkit-animation: AnimationName 25s ease infinite;
-    -moz-animation: AnimationName 25s ease infinite;
-    -o-animation: AnimationName 25s ease infinite;
-    animation: AnimationName 25s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
   /* bacground by me */
 
   display: flex;
@@ -240,25 +245,39 @@
   align-items: flex-end;
 }
 /* background me  */
+
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
+  0% {
+    background-position: 0% 2%;
+  }
+  50% {
+    background-position: 100% 99%;
+  }
+  100% {
+    background-position: 0% 2%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
+  0% {
+    background-position: 0% 2%;
+  }
+  50% {
+    background-position: 100% 99%;
+  }
+  100% {
+    background-position: 0% 2%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
+  0% {
+    background-position: 0% 2%;
+  }
+  50% {
+    background-position: 100% 99%;
+  }
+  100% {
+    background-position: 0% 2%;
+  }
 }
 /* background me  */
 
