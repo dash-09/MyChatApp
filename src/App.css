@@ -3,11 +3,12 @@
 * {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.5px;
-  text-transform: capitalize;
+ 
 }
 
 .ce-chat-list {
   background-color: #6650a5 !important;
+   text-transform: capitalize;
 }
 
 .ce-chats-container {  
